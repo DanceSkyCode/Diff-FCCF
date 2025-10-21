@@ -32,7 +32,6 @@ Medical image fusion (MIF) aims to integrate complementary information from mult
 ## 🚀Environment
 
 We test the code on PyTorch 2.6.0 + CUDA 12.9.
-
 1. Create a new conda environment
 ```
 conda create -n Diff-FCCF python=3.12.7
