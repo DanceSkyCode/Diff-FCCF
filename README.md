@@ -9,8 +9,8 @@ Please leave us a star ⭐⭐⭐ if you find this work helpful.
   <p align="center">
     <a href='https://arxiv.org/'><img src='http://img.shields.io/badge/Paper-arxiv.2599.07721-B31B1B.svg'></a>
     <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/HARVRD-PET-MRI.zip'><img src='https://img.shields.io/badge/Harvard_PET_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
-    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/HARVRD-SPECT-MRI.zip'><img src='https://img.shields.io/badge/Harvard_PET_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
-    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/HARVRD-CT-MRI.zip'><img src='https://img.shields.io/badge/Harvard_PET_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
+    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/HARVRD-SPECT-MRI.zip'><img src='https://img.shields.io/badge/Harvard_SPECT_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
+    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/HARVRD-CT-MRI.zip'><img src='https://img.shields.io/badge/Harvard_CT_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
     <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/GFP.zip'><img src='https://img.shields.io/badge/GFP_F_P-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
     <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/ADNI.txt'><img src='https://img.shields.io/badge/ADNI_CT_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a></a>
   </p>
