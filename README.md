@@ -1,5 +1,9 @@
 # Diff-FCCF
 Please leave us a star ⭐⭐⭐ if you find this work helpful.
+<div align="center">
+
+<h2 style="border-bottom: 1px solid lightgray;">🧠✨👀A Novel End-to-End Unsupervised Multi-Task Diffusion Network for Hierarchical Medical Multi-Modality Image Full-Color Channel Fusion</h2>
+</div>
 <p align="center">
   <a href="#">
   <p align="center">
@@ -11,7 +15,7 @@ Please leave us a star ⭐⭐⭐ if you find this work helpful.
     <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/ADNI.txt'><img src='https://img.shields.io/badge/ADNI_CT_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a></a>
   </p>
 </p>
-The code of "A Novel End-to-End Unsupervised Multi-Task Diffusion Network for Hierarchical Medical Multi-Modality Image Full-Color Channel Fusion"
+
 
 ## 👀Update
 - [2025/10] 😊😊😊Release data setting and preprocess for Diff-FCCF.
