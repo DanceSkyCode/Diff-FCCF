@@ -1,15 +1,25 @@
-# LFDT-Fusion
-Please leave us a star ⭐ if you find this work helpful.
-
+# Diff-FCCF
+Please leave us a star ⭐⭐⭐ if you find this work helpful.
+<p align="center">
+  <a href="#">
+  <p align="center">
+    <a href='https://arxiv.org/'><img src='http://img.shields.io/badge/Paper-arxiv.2599.07721-B31B1B.svg'></a>
+    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/HARVRD-PET-MRI.zip'><img src='https://img.shields.io/badge/Harvard_PET_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
+    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/HARVRD-SPECT-MRI.zip'><img src='https://img.shields.io/badge/Harvard_PET_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
+    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/HARVRD-CT-MRI.zip'><img src='https://img.shields.io/badge/Harvard_PET_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
+    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/GFP.zip'><img src='https://img.shields.io/badge/GFP_F_P-%F0%9F%A4%97%20Hugging%20Face-blue'></a>
+    <a href='https://huggingface.co/datasets/DanceSkyCode/Diff-FCCF-Medical-Image-Fusion-Dataset/blob/main/ADNI.txt'><img src='https://img.shields.io/badge/ADNI_CT_MRI-%F0%9F%A4%97%20Hugging%20Face-blue'></a></a>
+  </p>
+</p>
 The code of "A Novel End-to-End Unsupervised Multi-Task Diffusion Network for Hierarchical Medical Multi-Modality Image Full-Color Channel Fusion"
 
-## Update
-- [2025/10] Release data setting and preprocess for Diff-FCCF.
-- [2025/10] Release all the code for Diff-FCCF.
-Model Weight will be released after accepted.
+## 👀Update
+- [2025/10] 😊😊😊Release data setting and preprocess for Diff-FCCF.
+- [2025/10] 🔥🔥🔥Release all the code for Diff-FCCF.
+✨✨✨Model Weight will be released after accepted.
 
 
-## Abstract
+## 📑Abstract
 Medical image fusion (MIF) aims to integrate complementary information from multiple imaging modalities into a single, informative image to enhance clinical diagnosis and treatment. While deep learning-based MIF methods have achieved significant progress, they still face critical challenges, including the separate-stage optimization of multi-tasks, limited adaptability in modality information imbalance, and suboptimal training results. Recent diffusion probabilistic models offer promising generative capabilities for image processing; however, existing diffusion-based fusion frameworks remain constrained by the overlook in handling full-color functional data, and fixed inference procedures in simplified grayscale fusion pipelines. To address these challenges, we propose Diff-FCCF, an end-to-end unsupervised multi-task diffusion network for full-color channel fusion in multi-modality medical imaging. Diff-FCCF unifies full-color image fusion, image registration, and denoising tasks within a single framework. A novel Chebyshev graph-guided U-Net is introduced in the diffusion denoising module to enhance cross-modal alignment. Additionally, a hierarchical inference strategy dynamically adjusts the fusion process to mitigate modality dominance and information imbalance. To optimize training without ground truth, we introduce an exploration-to-stability reinforcement learning strategy guided by a multi-objective loss, improving convergence and generalization. Extensive experiments on five benchmark fusion groups demonstrate that Diff-FCCF achieves state-of-the-art performance in both quantitative and qualitative evaluations, especially outperforming comparable methods by more than 20% in the Mutual Information (MI) metric, and producing diagnostically valuable, interpretable fusion results.
 ### Framework
 <div style="text-align: center;">
@@ -19,7 +29,7 @@ Medical image fusion (MIF) aims to integrate complementary information from mult
 
 
 
-## Environment
+## 🚀Environment
 
 We test the code on PyTorch 2.6.0 + CUDA 12.9.
 
@@ -36,7 +46,7 @@ pip install -r requirements.txt
 
 
 
-## Evaluation
+## 🚀Evaluation
 You can directly test our model to generate fused images using the following code (note: the pre-training weights sholud be saved in the './check/' file)
 
 
@@ -95,7 +105,7 @@ train
 │   │   ├──0000.png                       
 ...                                     
 ```
-### 2. Start training
+### 2. 🚀Start training
 You can use the following code to train the LFDT-Fusion model for different fusion tasks.
 ```
 python train.py
@@ -107,37 +117,37 @@ You can find their corresponding configuration file paths in './config.json'.
 ```
 
 ## Fusion examples
-### 1. Hardvard PET-MRI Fusion
+### 1. 🖼️Hardvard PET-MRI Fusion
 <div style="text-align: center;">
     <img src="./docs/H-PET-MRI.png" width="90%">
 </div>
 <p>Visual comparison of Diff-FCCF with 6 SOTA methods for MRI and PET image fusion. For a more intuitive comparison, the regions are enlarged as close-ups.</p>
 
-### 2. Hardvard SPECT-MRI Fusion
+### 2. 🖼️Hardvard SPECT-MRI Fusion
 <div style="text-align: center;">
     <img src="./docs/H-SPECT-MRI.png" width="90%">
 </div>
 <p> Visual comparison of Diff-FCCF with 6 SOTA methods for MRI and SPECT image fusion. For a more intuitive comparison, the regions are enlarged as close-ups.</p>
 
-### 3. Hardvard CT-MRI Fusion
+### 3. 🖼️Hardvard CT-MRI Fusion
 <div style="text-align: center;">
     <img src="./docs/H-CT-MRI.png" width="90%">
 </div>
 <p> Visual comparison of Diff-FCCF with 6 SOTA methods for MRI and CT image fusion. For a more intuitive comparison, the regions are enlarged as close-ups. CT images are preprocessed with rainbow mapping.</p>
 
-### 4. GFP Fusion
+### 4. 🖼️GFP Fusion
 <div style="text-align: center;">
     <img src="./docs/GFP.png" width="90%">
 </div>
 <p>Comparison of Diff-FCCF with 6 SOTA methods for PC and GFP image fusion. The intuitive regions are enlarged as close-ups.</p>
 
-### 5. ADNI CT-MRI Fusion
+### 5. 🖼️ADNI CT-MRI Fusion
 <div style="text-align: center;">
     <img src="./docs/ADNI.png" width="90%">
 </div>
 <p> Comparison of Diff-FCCF with 6 SOTA methods for MRI and PET image fusion.  The intuitive regions are enlarged as close-ups. PET images are preprocessed with rainbow mapping.</p>
 
-### 6. Hierarchical Condition Enhancement in Inference Phase
+### 6. 🖼️Hierarchical Condition Enhancement in Inference Phase
 <div style="text-align: center;">
     <img src="./docs/Hier.png" width="90%">
 </div>
