@@ -9,7 +9,7 @@ from torch.optim import lr_scheduler
 import random
 from dataset import MFI_Dataset
 from Diffusion import GaussianDiffusion
-from Condition_Noise_Predictor.UNet import NoisePred
+from Denoiser_Unet.UNet import NoisePred
 from utils import tensorboard_writer, logger, save_model
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 loss_ref = {'noise': 10.0, 'folding': 1e5, 'smooth': 1e6, 'fusion': 1e3, 'quality': 1e4}  # init
