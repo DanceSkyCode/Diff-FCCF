@@ -88,10 +88,10 @@ train
 │   │   ├──0000.png                        
 ...                                         
 ├── HARVARD-SPECT-MRI                              
-│   ├──over                              
+│   ├──SPECT                              
 │   │   ├──0000.png                      
 ...                                          
-│   ├──under                            
+│   ├──MRI                            
 │   │   ├──0000.png                       
 ...                      
 ├── GFP                                   
