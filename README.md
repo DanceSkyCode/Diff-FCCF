@@ -23,17 +23,6 @@ Please leave us a star ⭐⭐⭐ if you find this work helpful.
 
 ✨✨✨Model Weight will be released after accepted.
 
-
-## 📑Abstract
-Medical image fusion (MIF) aims to integrate complementary information from multiple imaging modalities into a single, informative image to enhance clinical diagnosis and treatment. While deep learning-based MIF methods have achieved significant progress, they still face critical challenges, including the separate-stage optimization of multi-tasks, limited adaptability in modality information imbalance, and suboptimal training results. Recent diffusion probabilistic models offer promising generative capabilities for image processing; however, existing diffusion-based fusion frameworks remain constrained by the overlook in handling full-color functional data, and fixed inference procedures in simplified grayscale fusion pipelines. To address these challenges, we propose Diff-FCCF, an end-to-end unsupervised multi-task diffusion network for full-color channel fusion in multi-modality medical imaging. Diff-FCCF unifies full-color image fusion, image registration, and denoising tasks within a single framework. A novel Chebyshev graph-guided U-Net is introduced in the diffusion denoising module to enhance cross-modal alignment. Additionally, a hierarchical inference strategy dynamically adjusts the fusion process to mitigate modality dominance and information imbalance. To optimize training without ground truth, we introduce an exploration-to-stability reinforcement learning strategy guided by a multi-objective loss, improving convergence and generalization. Extensive experiments on five benchmark fusion groups demonstrate that Diff-FCCF achieves state-of-the-art performance in both quantitative and qualitative evaluations, especially outperforming comparable methods by more than 20% in the Mutual Information (MI) metric, and producing diagnostically valuable, interpretable fusion results.
-### Framework
-<div style="text-align: center;">
-    <img src="./docs/image.png" width="90%">
-</div>
-<p> Overall framework of Diff-FCCF. (a) The training pipeline employs a multi-task U-Net to predict the noise, deformable field, and fusion masks based on a full-color strategy and an exploration-to-stability reinforcement learning optimization. (b) The inference pipeline adopts a Hierarchical Condition Enhancement strategy to predict the noise, deformable field, and fusion masks, and refines foreground details across three progressive stages.</p>
-
-
-
 ## 🚀Environment
 
 We test the code on PyTorch 2.6.0 + CUDA 12.9.
@@ -51,7 +40,7 @@ pip install -r requirements.txt
 
 
 ## 🚀Evaluation
-You can directly test our model to generate fused images using the following code (note: the pre-training weights sholud be saved in the './check/' file)
+You can directly test our model to generate fused images using the following code
 
 
 ```
